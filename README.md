@@ -98,7 +98,7 @@ Gegeben eine rekurrente Gleichung der Form: **T(n) a T(n/b) + f(n)**
 ### Code-Complexity
 
 Problem 1:
-```aidl
+```python
     j = n;
     while(j >= 2) {
         j = j^(1/2)
@@ -106,7 +106,7 @@ Problem 1:
 ```
 
 Problem 2:
-```aidl
+```python
     for i=1 to n {
         i += i   
     }
@@ -114,7 +114,7 @@ Problem 2:
 ```
 
 Problem 3:
-```aidl
+```python
     int a = 0, b = 0;    
     for (i = 0; i < N; i++) {
         for (j = 0; j < N; j++) {
@@ -127,7 +127,7 @@ Problem 3:
 ```
 
 Problem 4:
-```aidl
+```python
     int a = 0, i = N;
     while (i > 0) {
         a += i;
@@ -136,7 +136,7 @@ Problem 4:
 ```
 
 Problem 5:
-```aidl
+```python
 
     int a = 0, b = 0; 
     for (i = 0; i < N; i++) { 
@@ -149,7 +149,7 @@ Problem 5:
 ```
 
 Problem 6:
-```aidl
+```python
     int a = 0; 
     for (i = 0; i < N; i++) { 
         for (j = N; j > i; j--) { 
@@ -159,7 +159,7 @@ Problem 6:
 ```
 
 Problem 7:
-```aidl
+```python
     int i, j, k = 0; 
     for (i = n / 2; i <= n; i++) { 
         for (j = 2; j <= n; j = j * 2) { 
@@ -169,7 +169,7 @@ Problem 7:
 ```
 
 Problem 8:
-```aidl
+```python
 
     int a = 0, i = N; 
     while (i > 0) { 
@@ -179,7 +179,7 @@ Problem 8:
 ```
 
 Problem 9:
-```aidl
+```python
     int i = 0, n = 100;
     while (i < n) {
         statements with O(1)
@@ -189,7 +189,7 @@ Problem 9:
 
 
 Problem 10:
-```aidl
+```python
     for (i = 1; p <= n; i++) {
         p = p + 1;
     }
@@ -197,14 +197,14 @@ Problem 10:
 
 
 Problem 11:
-```aidl
+```python
     for (i = 1; i < n; i = i*2) {
         some statements with O(1)
     }
 ```
 
 Problem 12:
-```aidl
+```python
     for (i = n; i >= 1; i=i/2) {
         statements with O(1)
     }
@@ -212,14 +212,14 @@ Problem 12:
 
 
 Problem 13:
-```aidl
+```python
     for (i = 0; i*i < n; i++) {
         statements with O(1)
     }
 ```
 
 Problem 14:
-```aidl
+```python
     for (i = 0; i < n; i++) {
         statements with O(1)
     }
@@ -231,7 +231,7 @@ Problem 14:
 ```
 
 Problem 15:
-```aidl
+```python
     p = 0;
     for (i = 1; i < n; i*2) {
         p++;
@@ -243,7 +243,7 @@ Problem 15:
 ```
 
 Problem 16:
-```aidl
+```python
     for (i = 0; i < n; i++) {
         for (j = 1; j < n; j=j*2) {
             statements with O(1)
@@ -252,7 +252,7 @@ Problem 16:
 ```
 
 Problem 17:
-```aidl
+```python
     i = 0;
     while (i < n) {
         statements with O(1)
@@ -261,7 +261,7 @@ Problem 17:
 ```
 
 Problem 18:
-```aidl
+```python
     a = 1;
     while (a < b) {
         statements with O(1)
@@ -270,7 +270,7 @@ Problem 18:
 ```
 
 Problem 19:
-```aidl
+```python
     i = n;
     while (i > 1) {
         statements with O(1)
@@ -279,7 +279,7 @@ Problem 19:
 ```
 
 Problem 20:
-```aidl
+```python
     i = 1;
     k = 1;
     while (k < n) {
@@ -290,7 +290,7 @@ Problem 20:
 ```
 
 Problem 21:
-```aidl
+```python
     while (m != n) {
         
         if (m > n) {
@@ -302,7 +302,7 @@ Problem 21:
 ```
 
 Problem 22:
-```aidl
+```python
     function x(n) {
 
         if (n < 5) {
@@ -317,7 +317,7 @@ Problem 22:
 ```
 
 Problem 23:
-```aidl
+```python
     int count = 0;
     for (int i = N; i > 0; i /= 2) {
         for (int j = 0; j < i; j++) {
@@ -328,7 +328,7 @@ Problem 23:
 
 
 Problem 24:
-```aidl
+```python
     function findXYZ(n) {
         const solutions = [];
 
@@ -345,7 +345,7 @@ Problem 24:
 ```
 
 Problem 25:
-```aidl
+```python
 
     float useless(A){
         n = A.length;
@@ -506,7 +506,7 @@ Naiiv:
 
     Idee: Sortiere Punkte vorher nach X-Koordinate
 
-```aidl
+```python
 
     // Annahme P sind 
     def closest_pair(P, left, right) {
@@ -556,7 +556,7 @@ Naiiv:
 #### Strassen
 
 A, B: Matrizen mit Dimensionen n x n
-```aidl
+```python
 
     def multiply(A, B) {
 
@@ -601,7 +601,7 @@ Gegeben:
 
 Return: Wert des nth größten elements
 
-```aidl
+```python
 
     def kth_biggest(N, nth, left, right) {
 
@@ -630,7 +630,7 @@ Return: Wert des nth größten elements
 
 #### Binärdarstellung
 
-```aidl
+```python
 
     def bin(zahl) {
 
@@ -651,7 +651,7 @@ Return: Wert des nth größten elements
 
 ##### Karatsuba 
 
-```aidl
+```python
     A, B: jeweils zwei Zahlen der Länge n
 
     def karatsuba(A, B) {
@@ -677,7 +677,7 @@ Return: Wert des nth größten elements
 
 ##### Convex-Hull
 
-```aidl
+```python
 
     // P {Set of unique Points p1, p2, ..., pn}
     // return clockwise sorted set of points, representing corners of convex hull
@@ -706,7 +706,7 @@ Return: Wert des nth größten elements
 
 ##### Max consecutive subarray
 
-```aidl
+```python
 
     // Idee: Teil menge an elementen. 
     def max_con_subarray(P, left, right) {
@@ -756,7 +756,7 @@ Return: Wert des nth größten elements
 
 Problemstellung: Find aus einer Menge von Zahlen das minimum und das maximum.
 
-```aidl
+```python
 
     def find_min_max(N, left, right) {
 
@@ -785,7 +785,7 @@ Problemstellung: Find aus einer Menge von Zahlen das minimum und das maximum.
 Annahme: Annahme zwei Polynom P<sub>1</sub> und P<sub>2</sub> vom gleichen Grad.
 Idee: Teile die Polynome solange bis nur noch ein Polynomglied übrig. Führe Multiplikationen durch. 
 
-```aidl
+```python
     def polym(P1, P2) {
 
         // Base Case
@@ -814,7 +814,7 @@ Idee: Teile die Polynome solange bis nur noch ein Polynomglied übrig. Führe Mu
 ##### Skyline
 Annahme: Liste der Gebäude-Formen sortiert nach x-koordinaten.
 
-```aidl
+```python
     
     def berechneSkyline(Gebäude Punkte, links, rechts) {
 
@@ -858,7 +858,7 @@ Annahme: Liste der Gebäude-Formen sortiert nach x-koordinaten.
 
 #### Partitionsproblem Rekursiv
 
-```aidl
+```python
     
     Fragestellung: Kann eine Menge an Zahlen S={w1, ..., wi} in zwei Mengen S1, S2 aufgeteilt werden so das summe der Zahlen in Mengen gleich sind?
 
@@ -885,7 +885,7 @@ Annahme: Liste der Gebäude-Formen sortiert nach x-koordinaten.
 
 ##### Quick-Sort
 
-```aidl
+```python
 
     def quick_sort(N, left, right) {
 
@@ -916,7 +916,7 @@ Annahme: Liste der Gebäude-Formen sortiert nach x-koordinaten.
 
 ##### Quick Sort with median of medians
 
-```aidl
+```python
 
     def quick_sort(N, left, right) {
 
@@ -945,7 +945,7 @@ Annahme: Liste der Gebäude-Formen sortiert nach x-koordinaten.
 
 ##### Merge-Sort
 
-```aidl
+```python
 
     def merge_sort(N, left, right) {
     
@@ -971,7 +971,7 @@ Annahme: Liste der Gebäude-Formen sortiert nach x-koordinaten.
 
 Gegeben: Array N: {w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>}
 
-```aidl
+```python
 
     // Return index of element else -1
     def binary_search(N, element, left, right) {
@@ -996,7 +996,7 @@ Gegeben: Array N: {w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>}
 
 ##### Intro-Sort
 
-```aidl
+```python
 
     def intro_sort(N, left, right) {
 
@@ -1016,7 +1016,7 @@ Gegeben: Array N: {w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>}
 
 ##### Count none negative
 
-```aidl
+```python
 
     def count_none_negative(N, left, right, num) {
         
@@ -1038,7 +1038,7 @@ Gegeben: Array N: {w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>}
 
 ##### Summe der Beträge
 
-```aidl
+```python
 
     def sum_of_non_negative(N, left, right) {
 
@@ -1060,7 +1060,7 @@ Gegeben: Array N: {w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>}
 
 ##### Summe der Einträge
 
-```aidl
+```python
 
     def summ_of_entries(N, left, right) {
 
@@ -1090,7 +1090,7 @@ Gegeben: Array N: {w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>}
     Gesucht: 
         S = {w<sub>1</sub>,... , w<sub>i</sub>} dessen Summe == Schranke
 
-```aidl
+```python
 
     def ssp(I, n, sum, schranke, Indice Set) {
 
@@ -1113,7 +1113,7 @@ Gegeben: Array N: {w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>}
 
 Fragestellung: Welches konsekutive sub-array bildet die maximale summe des arrays.
 
-```aidl
+```python
     def max_subarray(N, left, right) {
 
 
@@ -1162,7 +1162,7 @@ Fragestellung: Welches konsekutive sub-array bildet die maximale summe des array
 
 ##### GGT
 
-```aidl
+```python
 
     // A, B > 0
     def ggt(A, B) {
@@ -1177,7 +1177,7 @@ Fragestellung: Welches konsekutive sub-array bildet die maximale summe des array
 
 ##### Max-Value
 
-```aidl
+```python
 
     def max_value(N, left, right) {
 
@@ -1200,7 +1200,7 @@ Fragestellung: Welches konsekutive sub-array bildet die maximale summe des array
 
 ##### Potenzieren
 
-```aidl
+```python
 
     def power(base, exp) {
 
@@ -1225,7 +1225,7 @@ Fragestellung: Welches konsekutive sub-array bildet die maximale summe des array
 
 #### Median
 
-```aidl
+```python
 
     // Pseudo-Code resembles the median-of-medians algorithm
     def median_of_medians(N, left, right) {
@@ -1249,7 +1249,7 @@ Fragestellung: Welches konsekutive sub-array bildet die maximale summe des array
 
 ##### Max Search Unimodal Array
 
-```aidl
+```python
 
     def unimodal_max(array, left, right) {
 
@@ -1273,7 +1273,7 @@ Fragestellung: Welches konsekutive sub-array bildet die maximale summe des array
 
 Berechnen der Fakultät einer Zahl im Teile und Herrsche Verfahren.
 
-```aidl
+```python
 
     // Alternativ
     def factorial(left, right) {
@@ -1330,7 +1330,7 @@ Berechnen der Fakultät einer Zahl im Teile und Herrsche Verfahren.
 
 ##### A*-Algorithm
 
-```aidl
+```python
 
     def a_star() {
 
@@ -1343,7 +1343,7 @@ Berechnen der Fakultät einer Zahl im Teile und Herrsche Verfahren.
 
 Calculate a delaunay triangulation for given points.
 
-```aidl
+```python
 
     def delaunay(P) {
 
@@ -1381,7 +1381,7 @@ Calculate a delaunay triangulation for given points.
 
 ##### Huffmann
 
-```aidl
+```python
     def bin_baum_erstellen():
             1. Vorkommen von zeichen eines alphabetes in einem text zählen
             2. Zeichen nach anzahl des vorkommens sortieren und diese als knoten annehmen
@@ -1412,7 +1412,7 @@ Calculate a delaunay triangulation for given points.
 
 ##### Kartenfärbung
 
-```aidl
+```python
 
     def map_paint() {
         
@@ -1423,7 +1423,7 @@ Calculate a delaunay triangulation for given points.
 ##### Moore Ford
 Kann vorhandensein von Zyklen negativen Gewichts erkennen.
 
-```aidl 
+```python 
 
     // Kanten können auch negativ sein. Jedoch ausschluss von Zyklen negativen gewichts die vom Startknoten aus erreichbar sind.
     def moore_ford(Graph, Start Knoten) {
@@ -1460,7 +1460,7 @@ Kann vorhandensein von Zyklen negativen Gewichts erkennen.
 
 #### Springerproblem
 
-```aidl
+```python
 
     // Kann in Sackgassen landen, womit nach alle Felder besucht werden
     def springerproblem(start X, start Y, höhe, breite) {
@@ -1487,7 +1487,7 @@ Kann vorhandensein von Zyklen negativen Gewichts erkennen.
 
 
 ##### Dijkstra
-```aidl
+```python
     
     def minDistanz(Graph graph, Vertex start, Vertex end) {
         
@@ -1519,7 +1519,7 @@ Kann vorhandensein von Zyklen negativen Gewichts erkennen.
 
 ##### Prim
 
-```aidl 
+```python 
 
     def berechneMST(Graph graph) {
 
@@ -1537,7 +1537,7 @@ Kann vorhandensein von Zyklen negativen Gewichts erkennen.
 
 ##### Kruksal
 
-```aidl 
+```python 
 
     def berechneMST(Graph graph) {
         
@@ -1563,7 +1563,7 @@ Kann vorhandensein von Zyklen negativen Gewichts erkennen.
 
 Die Gegenstände können geteilt werden. Bzw. es kann auch nur ein Teil eines Gegenstandes mitgenommen werden.
 
-```aidl
+```python
 
     def frak_knappsack(items, size) {
 
@@ -1609,7 +1609,7 @@ C = {C<sub>1</sub>, ..., S<sub>i</sub>} (Kosten zu jeder Teilmenge)
 Gesucht: Menge von Teilmengen S<sub>i</sub> die zusammen die Menge U bilden und minimale Kosten C haben.
 
 
-```aidl
+```python
 
     def set_cover(U, S, C) {
 
@@ -1634,7 +1634,7 @@ Gesucht: Menge von Teilmengen S<sub>i</sub> die zusammen die Menge U bilden und 
 Gegeben: Menge S = {S<sub>1</sub>, S<sub>2</sub>, ...S<sub>n</sub>} an Strings.
 Gesucht: String der sowohl alle Elemente aus S als Substrings enthält als auch die kürzeste länge besitzt.
 
-```aidl
+```python
 
     def shortest_common_superstring(A, B) {
 
@@ -1668,7 +1668,7 @@ T = threshold, single value for which to partition
 
 Gesucht: Aufteilung der Menge S in zwei Mengen S<sub>1</sub> und S<sub>2</sub> so das differenz möglichst klein.
 
-```aidl
+```python
 
     def partition_problem(S, T) {
 
@@ -1697,7 +1697,7 @@ Gesucht: Aufteilung der Menge S in zwei Mengen S<sub>1</sub> und S<sub>2</sub> s
 
 ##### Wechselgeld
 
-```aidl
+```python
 
     def min_wechselgeld(Betrag) {
 
@@ -1720,7 +1720,7 @@ Gesucht: Aufteilung der Menge S in zwei Mengen S<sub>1</sub> und S<sub>2</sub> s
 Gegeben: Menge von Gegenständen mit Wertigkeit und eine Rucksack größe.
 Fragestellung: Welche Gegenstände können mitgenommen wobei Wert der Gegenstände maximal sein soll.
 
-```aidl
+```python
 
     def knappsack_problem(items, pack size) {
 
@@ -1744,7 +1744,7 @@ Fragestellung: Welche Gegenstände können mitgenommen wobei Wert der Gegenstän
 
 Fragestellung: Verteilung von N-Jobs auf k-Threads.
 
-```aidl
+```python
 
     def job_scheduling(n-Jobs, k-threads) {
 
@@ -1764,7 +1764,7 @@ Fragestellung: Verteilung von N-Jobs auf k-Threads.
 
 ##### Breadth-First-Search
 
-```aidl
+```python
 
     def search(Tree tree, Node searchFor) {
 
@@ -1837,7 +1837,7 @@ Alternativ
 ##### Floyd
 
 
-```aidl
+```python
 
     // Kürzester Weg zwischen Knotenpaaren
     def floyd(Graph) {
@@ -1865,7 +1865,7 @@ Alternativ
 
 #### Warshall
 
-```aidl
+```python
 
     // Fragestellung: Existiert eine Verbindung zwischen Knoten A und B (wenn auch nur eine indirekte)?
     def warshall() {
@@ -1893,7 +1893,7 @@ Alternativ
 
 ##### Tripel Algorithmus
 
-```aidl
+```python
 
     def tripel_algorithmus(Graph) {
 
@@ -1922,7 +1922,7 @@ Alternativ
 
 ##### Binomialkoeffizienten
 
-````aidl
+````python
     
     def binom_coff(int n, int k) {
     
@@ -1950,7 +1950,7 @@ Alternativ
 
 ##### Catalan-Zahlen
 
-````aidl
+````python
     
     def catalan_zahlen(int nth) {
         // Berechne nth-cataln zahl
@@ -1978,7 +1978,7 @@ Alternativ
 
 ##### Cocke-Younger-Kasami-Algorithmus
 
-```aidl
+```python
 
     def cyk() {
 
@@ -1988,7 +1988,7 @@ Alternativ
 
 ##### deBoor
 
-```aidl
+```python
 
     def deBoor() {
 
@@ -2009,7 +2009,7 @@ b<sup>0</sup><sub>i</sub>(t) = b<sub>i</sub>
 
 Das Bêzierpolynom: p(t) = Summe über b<sub>i</sub>B<sup>n</sup><sub>i</sub>(t)
 
-```aidl
+```python
     def deCastljau() {
 
         Fehler abfangen falls für den Grad des Polynoms nicht genügend Punkte vorhanden
@@ -2045,7 +2045,7 @@ Das Bêzierpolynom: p(t) = Summe über b<sub>i</sub>B<sup>n</sup><sub>i</sub>(t)
 
 ##### Editierabstand
 
-````aidl
+````python
     
     def levensthein(string a, string b) do
     
@@ -2059,7 +2059,7 @@ Das Bêzierpolynom: p(t) = Summe über b<sub>i</sub>B<sup>n</sup><sub>i</sub>(t)
 
 ##### Fibonacci-Zahlen
 
-````aidl
+````python
     int dynamic_fibonaci(int nth) {
         // Berechne nth Fibonacci Zahl
         
@@ -2083,7 +2083,7 @@ Das Bêzierpolynom: p(t) = Summe über b<sub>i</sub>B<sup>n</sup><sub>i</sub>(t)
 
 ##### K-Bonacci Zahl
 
-```aidl
+```python
 
     // n >= 0, k >= 2
     def k_bonacci(n, k) {
@@ -2115,7 +2115,7 @@ Das Bêzierpolynom: p(t) = Summe über b<sub>i</sub>B<sup>n</sup><sub>i</sub>(t)
 
 ##### Kürzester Weg eines Springers
 
-```aidl
+```python
 
     // Feld wird ausgehend von startkoordinate sukzessiv befüllt. (Art breiten suche)
     def kürzester_weg_springer(start, end, feld) {
@@ -2161,7 +2161,7 @@ Das Bêzierpolynom: p(t) = Summe über b<sub>i</sub>B<sup>n</sup><sub>i</sub>(t)
 
 #### Längste aufsteigende Teilfolge
 
-```aidl
+```python
 
     // Liefert die größe der längsten aufsteigenden Teilfolge
     def aufsteigende_teilfolge(S) {
@@ -2223,7 +2223,7 @@ Das Bêzierpolynom: p(t) = Summe über b<sub>i</sub>B<sup>n</sup><sub>i</sub>(t)
 
 ##### Längste gemeinsame Teilfolge
 
-```aidl
+```python
 
     def gemeinsame_teilfolge(S1, S2) {
 
@@ -2246,7 +2246,7 @@ Das Bêzierpolynom: p(t) = Summe über b<sub>i</sub>B<sup>n</sup><sub>i</sub>(t)
 ##### Newton-Interpolation
 
 
-```aidl
+```python
 
     N: Stuetstellen des Polynoms N[i][0] -> x[i]-koordinate, N[i][1] -> y[i]-koordinate
     x: x-koordinate zu der y-Wert zu berechnen ist
@@ -2296,7 +2296,7 @@ Das Bêzierpolynom: p(t) = Summe über b<sub>i</sub>B<sup>n</sup><sub>i</sub>(t)
 
 Spezielle Ausprägung des Sub-Set Problems. Im Prinzip selber Algorithmus aufrufbar und suche nach Menge an Zahlen die gleich der Hälfte der Summe der im Array enthaltenen Zahlen.
 
-```aidl
+```python
 
     S: Liste mit Zahlen {z1, ..., zn}
 
@@ -2336,7 +2336,7 @@ Spezielle Ausprägung des Sub-Set Problems. Im Prinzip selber Algorithmus aufruf
 
 ##### Teilsummenproblem
 
-```aidl
+```python
 
     def ssp_dynamic(I, s) {
 
@@ -2375,7 +2375,7 @@ Spezielle Ausprägung des Sub-Set Problems. Im Prinzip selber Algorithmus aufruf
 ##### Zahlen-Dreieck
 
 
-````aidl
+````python
 
     // Vorraussetzung Pfadkosten immer > 0
     // Berechne pfad mit maximalen kosten
@@ -2418,7 +2418,7 @@ Spezielle Ausprägung des Sub-Set Problems. Im Prinzip selber Algorithmus aufruf
 ##### Reiseplannung
 
 
-```aidl
+```python
 
     A: Attraktionen Liste aus tupeln Z<sub>i</sub>-Zeit für die Attraktion, S<sub>i</sub>-Wertigkeit der Sehenswürdigkeit.
     Ziel: Maximiere Wertigkeit der Sehenswürdigkeiten.
@@ -2447,7 +2447,7 @@ Spezielle Ausprägung des Sub-Set Problems. Im Prinzip selber Algorithmus aufruf
 
 ##### Längster gemeinsamer Teilstring Dynamisches Programm
 
-```aidl
+```python
 
     A: String, länge > 0 
     B: String, länge > 0 
